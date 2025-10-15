@@ -1,0 +1,15 @@
+@charset "UTF-8";
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ img {max-width: 100%; display: block;}
+ header, nav, section, footer {border: 1px solid #000;}
+ #contenedor{
+     max-width: 980px;
+     margin: auto;
+ }
+ nav ul.menu{
+     display: flex;
+     justify-content: flex-end;
+ }
+    nav ul.menu li{
+        width: 16%;
+    }
